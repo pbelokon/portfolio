@@ -9,6 +9,7 @@ body {
   background: linear-gradient(to top, #a3bded 0%, #6991c7 100%);
   background-repeat: no-repeat;
   background-attachment: fixed;
+  overflow: hidden;
 }
 
 @media only screen and (max-width: 680px) {
