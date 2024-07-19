@@ -16,6 +16,12 @@
   }
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
@@ -27,9 +33,10 @@ body {
   color: var(--primary-color);
   font-size: 2rem;
   line-height: 3rem;
+  display: flex;
+  justify-content: center;
 }
 
-/* General styles */
 li,
 p,
 a {
@@ -142,12 +149,6 @@ section {
   min-height: 100vh;
 }
 
-/* Wrapper */
-body {
-  display: flex;
-  justify-content: center;
-}
-
 .wrapper {
   max-width: 1280px;
   width: 100%;
@@ -170,7 +171,6 @@ article {
   border-radius: 2rem;
   height: 80rem;
   box-sizing: border-box;
-  
 }
 
 img {
@@ -256,10 +256,10 @@ article h1 {
     width: 100%;
     margin-top: 5rem;
     padding: 2rem;
-    height: 520px;
+    height: auto;
   }
 
-  section { 
+  section {
     padding: 1rem;
   }
 }
