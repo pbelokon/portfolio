@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="images/cat.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Pavel Belokon is a JavaScript Developer with expertise in front-end frameworks (React,
+    Next.js) and a passion for Web Accessibility, Web Design, and
+    Serverless Technologies (AWS, Azure). Experienced in building and
+    optimizing web applications with a focus on accessibility and
+    efficiency. Currently developing a JavaScript Game Engine and
+    advancing skills through Front-End Masters courses. Based in Canada">
+
+    <title>Pavel Belokon</title>
+
+      <!-- Font -->
+      <link rel="preconnect" href="https://rsms.me/" />
+      <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+  
+      <!-- Styles -->
+      <link rel="stylesheet" href="./style.css" />
+  
+      <!-- Icons -->
+      <script
+        src="https://kit.fontawesome.com/52b90870d0.js"
+        crossorigin="anonymous"
+      ></script>
+  </head>
+  <body>
+   <div class="wrapper">
+     <!-- Navigation -->
+     <nav>
+      <ul>
+        <li>
+          <a href="https://github.com/pbelokon" target="_blank">
+            <i class="fa-brands fa-square-github"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/pavel-belokon/" target="_blank">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://dev.to/pbelokon" target="_blank">
+            <i class="fa-solid fa-note-sticky"></i>
+          </a>
+        </li>
+        <li>
+          <a href="mailto:pavelbelokon786@gmail.com" >
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+        </li>
+      </ul>
+
+      <ul class="navigation">
+        <li>
+          <a href="#about" class="active">about</a>
+        </li>
+        <li>
+          <a href="#experience">experience</a>
+        </li>
+        <li>
+          <a href="#projects">projects</a>
+        </li>
+      </ul>
+    </nav>
+    
+    
+    <!-- About -->
+    <section class="about" id="about" >
+      <div class="sections"><h1>About</h1></div>
+
+      <h1>Pavel Belokon</h1>
+      <h2>Junior Web Developer</h2>
+
+      <p>
+        JavaScript Developer with expertise in front-end frameworks (React,
+        Next.js) and a passion for Web Accessibility, Web Design, and
+        Serverless Technologies (AWS, Azure). Experienced in building and
+        optimizing web applications with a focus on accessibility and
+        efficiency. Currently developing a JavaScript Game Engine and
+        advancing skills through Front-End Masters courses.
+      </p>
+    </section>
+
+
+    <!-- Experience -->
+    <section class="experience" id="experience">
+      <div class="sections"><h1 >Experience</h1></div>
+
+      <a href="#">
+        <span>2020 - 2021</span>
+        <div class="description">
+          <h1>Web Developer - TDSB</h1>
+          <p>
+            Built multiple projects and researched system design
+            improvements for better developer workflow. Collaborated
+            effectively in a tech team, adhering to tight deadlines and
+            accessibility standards. Learned and applied Git, various
+            automation workflows, WCAG user accessibility, and adapted to
+            multiple technologies quickly.
+          </p>
+
+          <ul>
+            <li>JavaScript</li>
+            <li>Html</li>
+            <li>C#</li>
+          </ul>
+        </div>
+      </a>
+    </section>
+
+    <div class="sections"><h1 >Projects</h1></div>
+    <section class="projects" id="projects">
+     
+
+    </section>
+   </div>
+   <!-- CDN & Scripts -->
+   <script src=" https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js "></script>
+   <script src="./main.js" type="module"></script>
+   <script>
+     // smooth scroll
+     const lenis = new Lenis();
+
+    function raf(time) {
+      lenis.raf(time);
+      requestAnimationFrame(raf);
+    }
+
+    requestAnimationFrame(raf);
+   </script>
+
+  </body>
+</html>

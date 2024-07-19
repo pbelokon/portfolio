@@ -1,0 +1,16 @@
+{ 
+  "projects": [
+    {
+      "tags": ["JavaScript", "Node", "Docker", "AWS", "CI/CD"],
+      "description": "AWS-driven microservice for factory report automation was build with a test-driven approach with quality and scalability",
+      "link": "https://github.com/pbelokon/fragments", 
+      "image": "./images/fragments.jpg"
+    },
+    {
+      "tags": ["JavaScript", "Node", "NPM", "Git"],
+      "description": "files-to-HTML parser for PDF and text files build in open source style with classmates",
+      "link": "https://github.com/pbelokon/BukuRain", 
+      "image": "./images/bukurain.jpg"
+    }
+  ]
+}
