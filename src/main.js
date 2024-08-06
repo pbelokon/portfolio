@@ -12,7 +12,6 @@ elements.forEach(element => {
   })
 })
 
-console.log(projects)
 const addCard = () => { 
     projects.forEach((project) => { 
       const imageLink = document.createElement("a"); 
@@ -33,7 +32,6 @@ const addCard = () => {
       })
 
       const header = document.createElement("h1");
-      console.log(projects)
       header.innerHTML = project.description; 
       header.className = "title"; 
   

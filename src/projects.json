@@ -11,6 +11,18 @@
       "description": "files-to-HTML parser for PDF and text files build in open source style with classmates",
       "link": "https://github.com/pbelokon/BukuRain", 
       "image": "./images/bukurain.jpg"
+    },
+    {
+      "tags": ["JavaScript", "Html", "CSS"],
+      "description": "Periodic table speller: spells out the input work with a collection of periodic table elements",
+      "link": "https://github.com/pbelokon/Periodic-Table-Speller", 
+      "image": "./images/ppl.jpg"
+    },
+    {
+      "tags": ["JavaScript", "Html", "CSS", "ThreeJS"],
+      "description": "Ongoing project! A threejs based game engine",
+      "link": "https://github.com/pbelokon/Zeus", 
+      "image": "./images/zues.jpg"
     }
   ]
 }
